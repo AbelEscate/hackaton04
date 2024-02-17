@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    height: calc(100vh - 50px);
+    background-color: rgba(219, 219, 219, 255);
+    display: grid;
+    place-items: center;
+}
+
+footer {
+    height: 50px;
+    background-color: rgba(219, 219, 219, 255);
+    display: grid;
+    place-items: center;
+}
+
+.tarjeta {
+    width: 321px;
+    height: 560px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 18px;
+    margin: 10px;
+}
+
+img {
+    width: 285px;
+    height: 220px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.chips {
+    margin-bottom: 30px;
+}
+
+.chip {
+    padding: 2px 10px; 
+    border: solid 1px gray;
+    border-radius: 20px;
+    margin-right: 7px;
+}
+
+
+p {
+    color: #878787;
+    margin-bottom: 20px;
+}
+
+.p-footer {
+    color: #302f2f
+}
+
+button {
+    margin-left: 33%;
+    color: rgb(25, 25, 216);
+    padding: 12px 22px;
+    background: #c3e7ee;
+    border: solid 1px #c3e7ee;
+    border-radius: 50px; 
+}
+
+h2 {
+    margin-bottom: 20px;
+}
